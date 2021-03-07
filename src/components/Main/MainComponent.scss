@@ -1,0 +1,21 @@
+@import "@styles/base/_response";
+.main-style {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &__searchBox {
+    width: 100%;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #514f9c;
+  }
+  &__listBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f1f3;
+  }
+}

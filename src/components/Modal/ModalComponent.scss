@@ -1,0 +1,65 @@
+.modal-background {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  .modal-contentBox {
+    width: 242px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    .modal-contentBox-messageBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 200px;
+      text-align: center;
+      .modal-contentBox-messageBox-message {
+        margin-top: 13px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #333333;
+      }
+    }
+    .modal-contentBox-buttonBox {
+      border-top: solid 1px #ececec;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 44px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.02);
+      }
+      .modal-contentBox-buttonBox-checkButton {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ff6955;
+      }
+    }
+  }
+}
